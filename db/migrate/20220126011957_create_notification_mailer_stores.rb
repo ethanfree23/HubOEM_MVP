@@ -1,4 +1,4 @@
-class CreateNotificationMailerStores < ActiveRecord::Migration[7.0]
+class CreateNotificationMailerStores < ActiveRecord::Migration[6.0]
   def change
     create_table :notification_mailer_stores do |t|
       t.belongs_to :notification, null: false

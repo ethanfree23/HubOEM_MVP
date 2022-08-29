@@ -1,4 +1,4 @@
-class ChangeDocumentLinkObjTypeToString < ActiveRecord::Migration[7.0]
+class ChangeDocumentLinkObjTypeToString < ActiveRecord::Migration[6.0]
   def change
     rename_column :document_links, :obj_type, :obj_type_dep
     add_column :document_links, :obj_type, :string

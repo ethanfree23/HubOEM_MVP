@@ -1,4 +1,4 @@
-class CreateRecurringOrders < ActiveRecord::Migration[7.0]
+class CreateRecurringOrders < ActiveRecord::Migration[6.0]
   def change
     create_table :recurring_orders do |t|
       t.string :purchase_order
